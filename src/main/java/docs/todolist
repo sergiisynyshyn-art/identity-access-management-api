@@ -1,0 +1,25 @@
+📋 Fase 2 completa (Todo List)
+Parte A - Estructura
+ Crear paquetes principales
+ Crear capa domain
+ Crear capa application
+ Crear capa infrastructure
+ Crear capa config
+Parte B - Dominio
+ Crear User
+ Crear Role
+ Crear Permission
+ Crear excepciones de dominio
+Parte C - Puertos
+ Crear UserRepositoryPort
+ Crear RoleRepositoryPort
+Parte D - Casos de uso
+ CreateUserUseCase
+ RegisterUserUseCase
+ LoginUserUseCase
+ GetUserUseCase
+Parte E - Adaptadores
+ UserEntity
+ RoleEntity
+ UserJpaRepository
+ UserPersistenceAdapter
