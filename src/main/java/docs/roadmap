@@ -1,0 +1,67 @@
+Identity & Access Management API
+   Objetivo
+   Desarrollar una API de Identity & Access Management (IAM) utilizando Java y Spring Boot siguiendo arquitectura hexagonal y buenas prácticas empleadas en proyectos empresariales.
+
+   Tecnologías
+   Java 21
+   Spring Boot 3
+   Spring Security
+   JWT
+   PostgreSQL
+   Flyway
+   MapStruct
+   Docker
+   JUnit 5
+   Maven
+   Roadmap
+   Fase 1 - Setup inicial ✅
+   Crear proyecto Spring Boot
+   Configurar PostgreSQL
+   Configurar Flyway
+   Configurar MapStruct
+   Configurar Lombok
+   Configurar GitHub
+   Fase 2 - Arquitectura y dominio 🚧
+   Parte A ✅
+   Estructura hexagonal
+   Organización de paquetes
+   Parte B 🚧
+   Crear User
+   Crear Role
+   Crear Permission
+   Configurar Lombok
+   Pendiente
+   UserRepositoryPort
+   RoleRepositoryPort
+   Excepciones de dominio
+   Casos de uso iniciales
+   Fase 3 - Persistencia
+   UserEntity
+   RoleEntity
+   PermissionEntity
+   Repositorios JPA
+   Adaptadores de persistencia
+   Fase 4 - Autenticación
+   Registro
+   Login
+   JWT
+   SecurityConfig
+   Fase 5 - Roles y permisos
+   Gestión de roles
+   Gestión de permisos
+   Protección de endpoints
+   Fase 6 - Observabilidad y calidad
+   Auditoría
+   Actuator
+   Logs
+   Rate Limiting
+   Fase 7 - Testing
+   Tests unitarios
+   Tests de integración
+   Fase 8 - Dockerización
+   Dockerfile
+   Docker Compose
+   Fase 9 - Documentación
+   README final
+   Swagger/OpenAPI
+   Diagramas
