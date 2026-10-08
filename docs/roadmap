@@ -65,3 +65,19 @@ Identity & Access Management API
    README final
    Swagger/OpenAPI
    Diagramas
+
+   -----------
+   Fase 2 - Arquitectura y dominio
+   Parte A ✅
+   Estructura hexagonal
+   Parte B ✅
+   User
+   Role
+   Permission
+   Lombok
+   UserRepositoryPort
+   RoleRepositoryPort
+   DTOs
+   RegisterUserUseCase
+   Parte B.3 🚧
+   RegisterUserUseCaseImpl
