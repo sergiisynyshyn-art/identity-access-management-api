@@ -202,3 +202,18 @@ Adaptadores
 Registro real de usuarios
 JWT
 Spring Security
+
+-------------
+Día 3
+RegisterUserUseCaseImpl
+Se ha creado la implementación inicial del caso de uso de registro de usuarios.
+
+Aprendizajes:
+
+Un Use Case implementa una acción de negocio.
+Los Use Cases dependen de Ports.
+Los Use Cases no conocen PostgreSQL ni JPA.
+La dependencia se realiza mediante interfaces.
+Concepto clave:
+
+Application ↓ Port ↓ Adapter ↓ Database

@@ -81,3 +81,9 @@ Identity & Access Management API
    RegisterUserUseCase
    Parte B.3 🚧
    RegisterUserUseCaseImpl
+   --------------
+   Parte B.3 🚧
+   Crear RegisterUserUseCaseImpl
+   Implementar lógica de registro
+   Gestión de excepciones
+   Crear UserResponse
