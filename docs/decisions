@@ -1,0 +1,50 @@
+Architecture Decisions
+ADR-001 - Hexagonal Architecture
+Decision
+El proyecto utilizará Arquitectura Hexagonal (Ports & Adapters).
+
+Reason
+Separar la lógica de negocio de la infraestructura.
+
+El dominio no debe depender de:
+
+Spring
+JPA
+PostgreSQL
+Seguridad
+Benefits
+Facilita testing.
+Facilita mantenimiento.
+Permite sustituir tecnologías sin modificar el dominio.
+Mejora la escalabilidad del proyecto.
+
+---------------
+ADR-002 - Lombok
+Decision
+Se utilizará Lombok en modelos, DTOs y clases auxiliares.
+
+Reason
+Reducir código repetitivo.
+
+Annotations
+@Getter
+@Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+Benefits
+Menos boilerplate.
+Código más limpio.
+Mayor productividad.
+---------------------
+ADR-003 - DTO Pattern
+Decision
+Las entidades de dominio no serán expuestas directamente por la API.
+
+Reason
+Evitar exposición de datos sensibles.
+
+Benefits
+Mayor seguridad.
+Menor acoplamiento.
+Control total sobre respuestas de la API.
