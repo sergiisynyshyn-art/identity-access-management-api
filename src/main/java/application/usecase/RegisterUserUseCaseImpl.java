@@ -2,6 +2,7 @@ package application.usecase;
 
 import application.dto.RegisterUserRequest;
 import application.dto.UserResponse;
+import domain.exception.UserAlreadyExistsException;
 import domain.ports.UserRepositoryPort;
 
 public class RegisterUserUseCaseImpl implements RegisterUserUseCase {
@@ -14,6 +15,10 @@ public class RegisterUserUseCaseImpl implements RegisterUserUseCase {
 
     @Override
     public UserResponse register(RegisterUserRequest request) {
+
+        if (userRepositoryPort.existsByEmail(request.getEmail())) {
+            throw new UserAlreadyExistsException();
+        }
 
         return null;
     }

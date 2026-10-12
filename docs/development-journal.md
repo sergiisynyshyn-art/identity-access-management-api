@@ -217,3 +217,17 @@ La dependencia se realiza mediante interfaces.
 Concepto clave:
 
 Application ↓ Port ↓ Adapter ↓ Database
+-------------
+Día 4
+Primera regla de negocio
+Implementación inicial de RegisterUserUseCaseImpl.
+
+Regla implementada:
+
+No se permite registrar dos usuarios con el mismo email.
+Aprendizajes:
+
+Los Use Cases contienen reglas de negocio.
+Los Use Cases utilizan Ports.
+El dominio sigue desacoplado de PostgreSQL.
+Las excepciones representan errores de negocio.

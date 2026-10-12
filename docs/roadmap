@@ -87,3 +87,11 @@ Identity & Access Management API
    Implementar lógica de registro
    Gestión de excepciones
    Crear UserResponse
+   ---------------------
+   Parte B.3 🚧
+   Crear RegisterUserUseCaseImpl
+   Añadir dependencia UserRepositoryPort
+   Primera validación de email existente
+   Crear usuario
+   Guardar usuario
+   Devolver UserResponse

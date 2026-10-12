@@ -1,4 +1,4 @@
 package domain.exception;
 
-public class UserAlreadyExistsException {
+public class UserAlreadyExistsException extends RuntimeException {
 }
