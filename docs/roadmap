@@ -95,3 +95,11 @@ Identity & Access Management API
    Crear usuario
    Guardar usuario
    Devolver UserResponse
+   --------------
+   Parte B.3 🚧
+   Crear RegisterUserUseCaseImpl
+   Inyectar UserRepositoryPort
+   Validar email duplicado
+   Crear objeto User desde RegisterUserRequest
+   Guardar usuario
+   Devolver UserResponse

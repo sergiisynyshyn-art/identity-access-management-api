@@ -231,3 +231,14 @@ Los Use Cases contienen reglas de negocio.
 Los Use Cases utilizan Ports.
 El dominio sigue desacoplado de PostgreSQL.
 Las excepciones representan errores de negocio.
+-----------
+Día 5
+Creación del objeto de dominio User
+Implementada la transformación de RegisterUserRequest a User.
+
+Aprendizajes:
+
+Los DTOs representan datos externos.
+El dominio representa las entidades del negocio.
+El Use Case es responsable de transformar DTOs en objetos de dominio.
+Builder simplifica la construcción de objetos complejos.
