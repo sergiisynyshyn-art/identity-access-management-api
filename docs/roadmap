@@ -103,3 +103,9 @@ Identity & Access Management API
    Crear objeto User desde RegisterUserRequest
    Guardar usuario
    Devolver UserResponse
+   Parte B.3 🚧
+   Crear User
+   Validar email duplicado
+   Guardar usuario usando UserRepositoryPort
+   Construir UserResponse
+   Completar caso de uso

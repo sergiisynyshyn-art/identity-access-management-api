@@ -242,3 +242,14 @@ Los DTOs representan datos externos.
 El dominio representa las entidades del negocio.
 El Use Case es responsable de transformar DTOs en objetos de dominio.
 Builder simplifica la construcción de objetos complejos.
+Persistencia mediante Ports
+Se ha añadido la llamada:
+
+userRepositoryPort.save(user)
+
+Aprendizajes:
+
+Los Use Cases no guardan directamente en PostgreSQL.
+La persistencia se realiza mediante Ports.
+save() devuelve la entidad persistida.
+El identificador suele generarse después del guardado.

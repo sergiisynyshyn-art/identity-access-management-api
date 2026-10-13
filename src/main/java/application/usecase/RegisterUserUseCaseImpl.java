@@ -26,6 +26,7 @@ public class RegisterUserUseCaseImpl implements RegisterUserUseCase {
                 .password(request.getPassword())
                 .enabled(true)
                 .build();
+        User savedUser = userRepositoryPort.save(user);
 
         return null;
     }
