@@ -253,3 +253,12 @@ Los Use Cases no guardan directamente en PostgreSQL.
 La persistencia se realiza mediante Ports.
 save() devuelve la entidad persistida.
 El identificador suele generarse después del guardado.
+-------
+Construcción de respuestas
+Implementado UserResponse en RegisterUserUseCaseImpl.
+
+Aprendizajes:
+
+El dominio no debe exponerse directamente.
+Los DTOs controlan la información enviada al cliente.
+UserResponse evita exponer campos sensibles como password.

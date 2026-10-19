@@ -109,3 +109,10 @@ Identity & Access Management API
    Guardar usuario usando UserRepositoryPort
    Construir UserResponse
    Completar caso de uso
+   Parte B.3 ✅
+   Crear RegisterUserUseCaseImpl
+   Inyectar UserRepositoryPort
+   Validar email duplicado
+   Crear User
+   Guardar usuario
+   Devolver UserResponse ``

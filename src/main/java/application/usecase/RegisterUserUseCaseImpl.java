@@ -28,7 +28,10 @@ public class RegisterUserUseCaseImpl implements RegisterUserUseCase {
                 .build();
         User savedUser = userRepositoryPort.save(user);
 
-        return null;
+        return UserResponse.builder()
+                .id(savedUser.getId())
+                .email(savedUser.getEmail())
+                .build();
     }
 
 }
