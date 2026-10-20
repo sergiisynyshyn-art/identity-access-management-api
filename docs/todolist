@@ -23,3 +23,11 @@ Parte E - Adaptadores
  RoleEntity
  UserJpaRepository
  UserPersistenceAdapter
+ --------
+  dia 6
+ ✅ RegisterUserUseCase completo
+ ⬜ Entender Domain vs Entity
+ ⬜ Crear UserEntity
+ ⬜ Entender por qué existen User y UserEntity
+ ⬜ Documentar
+ ⬜ Commit

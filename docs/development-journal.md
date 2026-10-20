@@ -262,3 +262,23 @@ Aprendizajes:
 El dominio no debe exponerse directamente.
 Los DTOs controlan la información enviada al cliente.
 UserResponse evita exponer campos sensibles como password.
+-----
+Día 6
+Entendiendo save()
+Aprendizajes:
+
+save() devuelve la entidad persistida.
+El identificador puede generarse después del guardado.
+Por este motivo se utiliza savedUser en lugar del objeto original.
+El caso de uso continúa desacoplado de PostgreSQL gracias al uso de UserRepositoryPort.
+-----
+Día 6
+Domain Model vs Persistence Entity
+Se ha creado UserEntity.
+
+Aprendizajes:
+
+User representa el negocio.
+UserEntity representa la persistencia.
+El dominio permanece independiente de JPA.
+La arquitectura hexagonal separa negocio y base de datos.
