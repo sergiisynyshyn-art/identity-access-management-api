@@ -1,118 +1,81 @@
 Identity & Access Management API
-   Objetivo
-   Desarrollar una API de Identity & Access Management (IAM) utilizando Java y Spring Boot siguiendo arquitectura hexagonal y buenas prácticas empleadas en proyectos empresariales.
+Objetivo
 
-   Tecnologías
-   Java 21
-   Spring Boot 3
-   Spring Security
-   JWT
-   PostgreSQL
-   Flyway
-   MapStruct
-   Docker
-   JUnit 5
-   Maven
-   Roadmap
-   Fase 1 - Setup inicial ✅
-   Crear proyecto Spring Boot
-   Configurar PostgreSQL
-   Configurar Flyway
-   Configurar MapStruct
-   Configurar Lombok
-   Configurar GitHub
-   Fase 2 - Arquitectura y dominio 🚧
-   Parte A ✅
-   Estructura hexagonal
-   Organización de paquetes
-   Parte B 🚧
-   Crear User
-   Crear Role
-   Crear Permission
-   Configurar Lombok
-   Pendiente
-   UserRepositoryPort
-   RoleRepositoryPort
-   Excepciones de dominio
-   Casos de uso iniciales
-   Fase 3 - Persistencia
-   UserEntity
-   RoleEntity
-   PermissionEntity
-   Repositorios JPA
-   Adaptadores de persistencia
-   Fase 4 - Autenticación
-   Registro
-   Login
-   JWT
-   SecurityConfig
-   Fase 5 - Roles y permisos
-   Gestión de roles
-   Gestión de permisos
-   Protección de endpoints
-   Fase 6 - Observabilidad y calidad
-   Auditoría
-   Actuator
-   Logs
-   Rate Limiting
-   Fase 7 - Testing
-   Tests unitarios
-   Tests de integración
-   Fase 8 - Dockerización
-   Dockerfile
-   Docker Compose
-   Fase 9 - Documentación
-   README final
-   Swagger/OpenAPI
-   Diagramas
+Desarrollar una API de Identity & Access Management (IAM) utilizando Java y Spring Boot siguiendo Arquitectura Hexagonal y buenas prácticas empleadas en entornos empresariales.
 
-   -----------
-   Fase 2 - Arquitectura y dominio
-   Parte A ✅
-   Estructura hexagonal
-   Parte B ✅
-   User
-   Role
-   Permission
-   Lombok
-   UserRepositoryPort
-   RoleRepositoryPort
-   DTOs
-   RegisterUserUseCase
-   Parte B.3 🚧
-   RegisterUserUseCaseImpl
-   --------------
-   Parte B.3 🚧
-   Crear RegisterUserUseCaseImpl
-   Implementar lógica de registro
-   Gestión de excepciones
-   Crear UserResponse
-   ---------------------
-   Parte B.3 🚧
-   Crear RegisterUserUseCaseImpl
-   Añadir dependencia UserRepositoryPort
-   Primera validación de email existente
-   Crear usuario
-   Guardar usuario
-   Devolver UserResponse
-   --------------
-   Parte B.3 🚧
-   Crear RegisterUserUseCaseImpl
-   Inyectar UserRepositoryPort
-   Validar email duplicado
-   Crear objeto User desde RegisterUserRequest
-   Guardar usuario
-   Devolver UserResponse
-   Parte B.3 🚧
-   Crear User
-   Validar email duplicado
-   Guardar usuario usando UserRepositoryPort
-   Construir UserResponse
-   Completar caso de uso
-   Parte B.3 ✅
-   Crear RegisterUserUseCaseImpl
-   Inyectar UserRepositoryPort
-   Validar email duplicado
-   Crear User
-   Guardar usuario
-   Devolver UserResponse ``
+Tecnologías
+Java 21
+Spring Boot 3
+Spring Security
+JWT
+PostgreSQL
+Flyway
+MapStruct
+Docker
+JUnit 5
+Maven
+Roadmap
+Fase 1 - Setup inicial ✅
+ Crear proyecto Spring Boot
+ Configurar PostgreSQL
+ Configurar Flyway
+ Configurar MapStruct
+ Configurar Lombok
+ Configurar GitHub
+Fase 2 - Arquitectura y Dominio ✅
+Parte A ✅
+ Estructura hexagonal
+ Organización de paquetes
+Parte B ✅
+ User
+ Role
+ Permission
+ Excepciones de dominio
+ UserRepositoryPort
+ RoleRepositoryPort
+ DTOs
+ RegisterUserUseCase
+Parte B.3 ✅
+ RegisterUserUseCaseImpl
+ Inyectar UserRepositoryPort
+ Validar email duplicado
+ Crear User desde RegisterUserRequest
+ Guardar usuario mediante UserRepositoryPort
+ Devolver UserResponse
+Fase 3 - Persistencia 🚧
+Parte 3.1 ✅
+ Entender Domain vs Entity
+ Crear UserEntity
+Parte 3.2 🚧
+ Añadir Lombok a UserEntity
+ Crear UserJpaRepository
+ Crear UserMapper
+ Crear UserPersistenceAdapter
+ Conectar UserRepositoryPort con JPA
+ Probar persistencia real
+Fase 4 - Autenticación
+ Registro real
+ Login
+ JWT
+ SecurityConfig
+ PasswordEncoder
+Fase 5 - Roles y Permisos
+ Gestión de roles
+ Gestión de permisos
+ Protección de endpoints
+Fase 6 - Observabilidad y Calidad
+ Auditoría
+ Actuator
+ Logs
+ Rate Limiting
+Fase 7 - Testing
+ Tests unitarios
+ Tests de integración
+Fase 8 - Dockerización
+ Dockerfile
+ Docker Compose
+Fase 9 - Documentación
+ README final
+ Swagger/OpenAPI
+ Diagramas de arquitectura
+ Diagramas de flujo
