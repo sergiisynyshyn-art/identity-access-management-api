@@ -48,7 +48,7 @@ Parte 3.1 ✅
  Crear UserEntity
 Parte 3.2 🚧
  Añadir Lombok a UserEntity
- Crear UserJpaRepository
+ Crear UserJpaRepository  ✅
  Crear UserMapper
  Crear UserPersistenceAdapter
  Conectar UserRepositoryPort con JPA

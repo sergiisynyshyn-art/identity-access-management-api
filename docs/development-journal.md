@@ -282,3 +282,14 @@ User representa el negocio.
 UserEntity representa la persistencia.
 El dominio permanece independiente de JPA.
 La arquitectura hexagonal separa negocio y base de datos.
+---------
+Día 7
+UserJpaRepository
+Se ha creado el primer repositorio JPA del proyecto.
+
+Aprendizajes:
+
+JpaRepository proporciona operaciones CRUD automáticamente.
+UserJpaRepository trabaja sobre UserEntity.
+El dominio sigue desacoplado de JPA.
+UserRepositoryPort continúa siendo el contrato principal de la aplicación.

@@ -31,3 +31,11 @@ Parte E - Adaptadores
  ⬜ Entender por qué existen User y UserEntity
  ⬜ Documentar
  ⬜ Commit
+ --------
+ dia 7
+ ✅ Revisar UserEntity
+ ⬜ Crear UserJpaRepository
+ ⬜ Entender qué es JpaRepository
+ ⬜ Entender qué hará UserPersistenceAdapter
+ ⬜ Actualizar documentation
+ ⬜ Commit
