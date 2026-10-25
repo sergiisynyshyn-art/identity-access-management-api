@@ -293,3 +293,15 @@ JpaRepository proporciona operaciones CRUD automáticamente.
 UserJpaRepository trabaja sobre UserEntity.
 El dominio sigue desacoplado de JPA.
 UserRepositoryPort continúa siendo el contrato principal de la aplicación.
+----------
+
+Día 8
+UserMapper
+Se ha creado UserMapper utilizando MapStruct.
+
+Aprendizajes:
+
+User representa el dominio.
+UserEntity representa la persistencia.
+UserMapper transforma objetos entre ambas capas.
+MapStruct genera automáticamente el código de conversión.

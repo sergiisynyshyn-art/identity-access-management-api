@@ -39,3 +39,10 @@ Parte E - Adaptadores
  ⬜ Entender qué hará UserPersistenceAdapter
  ⬜ Actualizar documentation
  ⬜ Commit
+ -----------
+ dia 8
+ □ Entender qué es un Mapper
+ □ Crear UserMapper
+ □ Conectar Domain ↔ Entity
+ □ Documentar
+ □ Commit

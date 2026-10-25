@@ -1,0 +1,6 @@
+dia 8
+✅ Qué he aprendido hoy
+Un Mapper transforma objetos.
+User y UserEntity tienen responsabilidades distintas.
+MapStruct evita escribir conversiones manuales.
+El dominio sigue separado de JPA.
