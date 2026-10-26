@@ -4,3 +4,9 @@ Un Mapper transforma objetos.
 User y UserEntity tienen responsabilidades distintas.
 MapStruct evita escribir conversiones manuales.
 El dominio sigue separado de JPA.
+dia 9
+Un Adapter implementa un Port.
+El Use Case nunca habla con JPA directamente.
+El Adapter conecta dominio e infraestructura.
+MapStruct traduce entre User y UserEntity.
+JpaRepository realiza las operaciones reales sobre la base de datos.

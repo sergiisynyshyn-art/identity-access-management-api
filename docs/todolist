@@ -46,3 +46,23 @@ Parte E - Adaptadores
  □ Conectar Domain ↔ Entity
  □ Documentar
  □ Commit
+ -------
+ dia 9
+ □ Entender qué es un Adapter
+ □ Crear UserPersistenceAdapter
+ □ Implementar UserRepositoryPort
+ □ Usar UserMapper
+ □ Usar UserJpaRepository
+ □ Documentar
+ □ Commit
+ Use Case
+     ↓
+ Port
+     ↓
+ UserPersistenceAdapter
+     ↓
+ UserMapper
+     ↓
+ UserJpaRepository
+     ↓
+ PostgreSQL

@@ -305,3 +305,16 @@ User representa el dominio.
 UserEntity representa la persistencia.
 UserMapper transforma objetos entre ambas capas.
 MapStruct genera automáticamente el código de conversión.
+
+dia 9
+Día 9
+UserPersistenceAdapter
+Se ha creado el primer adaptador de persistencia.
+
+Aprendizajes:
+
+Un Adapter implementa un Port.
+El Adapter conecta dominio e infraestructura.
+UserMapper transforma User ↔ UserEntity.
+JpaRepository realiza la persistencia real.
+Los Use Cases continúan desacoplados de PostgreSQL.
