@@ -66,3 +66,10 @@ Parte E - Adaptadores
  UserJpaRepository
      ↓
  PostgreSQL
+--------
+dia 10
+□ Implementar existsByEmail()
+□ Entender Adapter → JPA
+□ Entender Optional
+□ Documentar
+□ Commit

@@ -44,6 +44,6 @@ public class UserPersistenceAdapter implements UserRepositoryPort {
 
     @Override
     public boolean existsByEmail(String email) {
-        return false;
+        return userJpaRepository.existsByEmail(email);
     }
 }

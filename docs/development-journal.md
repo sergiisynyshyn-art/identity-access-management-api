@@ -318,3 +318,14 @@ El Adapter conecta dominio e infraestructura.
 UserMapper transforma User ↔ UserEntity.
 JpaRepository realiza la persistencia real.
 Los Use Cases continúan desacoplados de PostgreSQL.
+-----
+Día 10
+Implementación de existsByEmail
+Se ha implementado existsByEmail en UserPersistenceAdapter.
+
+Aprendizajes:
+
+El Adapter implementa los métodos definidos en el Port.
+UserJpaRepository realiza la consulta real.
+El caso de uso sigue desacoplado de la capa de persistencia.
+Se completa el flujo UseCase → Port → Adapter → Repository.
