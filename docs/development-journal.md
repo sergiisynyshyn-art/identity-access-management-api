@@ -329,3 +329,14 @@ El Adapter implementa los métodos definidos en el Port.
 UserJpaRepository realiza la consulta real.
 El caso de uso sigue desacoplado de la capa de persistencia.
 Se completa el flujo UseCase → Port → Adapter → Repository.
+
+dia 11
+Día 11
+UserPersistenceAdapter como Bean Spring
+Se ha convertido UserPersistenceAdapter en un componente gestionado por Spring mediante @Repository.
+
+Aprendizajes:
+
+Spring detecta automáticamente clases anotadas con @Repository.
+Los adaptadores implementan los Ports.
+La inyección de dependencias permitirá utilizar UserRepositoryPort sin conocer su implementación concreta.

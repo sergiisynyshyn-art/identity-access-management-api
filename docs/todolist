@@ -73,3 +73,10 @@ dia 10
 □ Entender Optional
 □ Documentar
 □ Commit
+------
+dia 11
+□ Entender qué es @Repository
+□ Entender inyección de dependencias
+□ Convertir UserPersistenceAdapter en Bean Spring
+□ Documentar
+□ Commit

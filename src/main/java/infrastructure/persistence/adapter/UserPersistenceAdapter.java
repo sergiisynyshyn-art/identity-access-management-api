@@ -5,9 +5,10 @@ import domain.ports.UserRepositoryPort;
 import infrastructure.mapper.UserMapper;
 import infrastructure.persistence.entity.UserEntity;
 import infrastructure.persistence.repository.UserJpaRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
-
+@Repository
 public class UserPersistenceAdapter implements UserRepositoryPort {
 
     private final UserJpaRepository userJpaRepository;
