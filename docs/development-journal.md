@@ -340,3 +340,30 @@ Aprendizajes:
 Spring detecta automáticamente clases anotadas con @Repository.
 Los adaptadores implementan los Ports.
 La inyección de dependencias permitirá utilizar UserRepositoryPort sin conocer su implementación concreta.
+----
+Día 12
+Finalización de UserPersistenceAdapter
+Métodos implementados:
+
+save
+findById
+findByEmail
+existsByEmail
+Aprendizajes:
+
+Los Adapters implementan los Ports.
+JPA trabaja con UserEntity.
+Los Use Cases trabajan con User.
+MapStruct traduce entre ambas capas.
+Optional.map permite transformar objetos de forma segura.
+Día 12
+Primer Controller
+Se ha creado AuthController.
+
+Aprendizajes:
+
+El Controller es la puerta de entrada de la API.
+@PostMapping permite recibir peticiones POST.
+@RequestBody convierte JSON en DTO.
+El Controller delega la lógica al UseCase.
+El Controller no contiene lógica de negocio.

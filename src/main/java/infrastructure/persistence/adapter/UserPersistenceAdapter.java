@@ -6,6 +6,7 @@ import infrastructure.mapper.UserMapper;
 import infrastructure.persistence.entity.UserEntity;
 import infrastructure.persistence.repository.UserJpaRepository;
 import org.springframework.stereotype.Repository;
+import lombok.RequiredArgsConstructor;
 
 import java.util.Optional;
 @Repository
@@ -35,13 +36,21 @@ public class UserPersistenceAdapter implements UserRepositoryPort {
 
     @Override
     public Optional<User> findById(Long id) {
-        return Optional.empty();
+
+        return userJpaRepository
+                .findById(id)
+                .map(userMapper::toDomain);
     }
+
 
     @Override
     public Optional<User> findByEmail(String email) {
-        return Optional.empty();
+
+        return userJpaRepository
+                .findByEmail(email)
+                .map(userMapper::toDomain);
     }
+
 
     @Override
     public boolean existsByEmail(String email) {

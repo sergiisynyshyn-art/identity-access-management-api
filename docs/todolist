@@ -80,3 +80,11 @@ dia 11
 □ Convertir UserPersistenceAdapter en Bean Spring
 □ Documentar
 □ Commit
+--------
+dia 12
+□ Revisar UserPersistenceAdapter
+□ Añadir Lombok para constructor
+□ Entender inyección de dependencias
+□ Entender cómo Spring encuentra implementaciones
+□ Documentar
+□ Commit
