@@ -5,7 +5,9 @@ import application.dto.UserResponse;
 import domain.exception.UserAlreadyExistsException;
 import domain.model.User;
 import domain.ports.UserRepositoryPort;
+import org.springframework.stereotype.Service;
 
+@Service
 public class RegisterUserUseCaseImpl implements RegisterUserUseCase {
 
     private final UserRepositoryPort userRepositoryPort;
