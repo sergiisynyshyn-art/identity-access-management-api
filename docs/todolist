@@ -88,3 +88,21 @@ dia 12
 □ Entender cómo Spring encuentra implementaciones
 □ Documentar
 □ Commit
+----------
+dia 13
+□ Arrancar aplicación
+□ Resolver errores de Spring
+□ Comprobar que crea todos los Beans
+□ Probar POST /api/auth/register
+□ Ver si inserta en PostgreSQL
+□ Documentar
+□ Commit
+----------
+dia 14
+□ Revisar Flyway
+□ Verificar que ejecuta migraciones
+□ Crear tabla users correctamente
+□ Probar POST /register
+□ Comprobar inserción en PostgreSQL
+□ Documentar
+□ Commit
