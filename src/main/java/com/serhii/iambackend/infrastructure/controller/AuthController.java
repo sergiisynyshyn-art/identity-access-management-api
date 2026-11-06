@@ -4,6 +4,7 @@ import com.serhii.iambackend.application.dto.RegisterUserRequest;
 import com.serhii.iambackend.application.dto.UserResponse;
 import com.serhii.iambackend.application.usecase.RegisterUserUseCase;
 import org.springframework.web.bind.annotation.*;
+import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/auth")
@@ -17,7 +18,7 @@ public class AuthController {
 
     @PostMapping("/register")
     public UserResponse register(
-            @RequestBody RegisterUserRequest request) {
+            @Valid  @RequestBody RegisterUserRequest request) {
 
         return registerUserUseCase.register(request);
     }

@@ -106,3 +106,15 @@ dia 14
 □ Comprobar inserción en PostgreSQL
 □ Documentar
 □ Commit
+-------
+dia 15
+✅ Registro funcionando
+
+⬜ Validar email obligatorio
+⬜ Validar password obligatoria
+⬜ Validar longitud mínima password
+⬜ Crear GlobalExceptionHandler
+⬜ Devolver errores HTTP bonitos
+⬜ Probar casos inválidos
+⬜ Documentar
+⬜ Commit
