@@ -127,3 +127,16 @@ dia 16
 □ Devolver códigos HTTP correctos
 □ Probar con Postman
 □ Commit
+✅ Registro de usuario
+✅ Validaciones DTO
+✅ GlobalExceptionHandler
+
+⬜ LoginRequest
+⬜ LoginResponse
+⬜ LoginUserUseCase
+⬜ LoginUserUseCaseImpl
+⬜ Endpoint POST /login
+⬜ Buscar usuario por email
+⬜ Validar credenciales
+⬜ Devolver respuesta de login
+commit
