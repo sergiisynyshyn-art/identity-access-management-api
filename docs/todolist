@@ -118,3 +118,12 @@ dia 15
 ⬜ Probar casos inválidos
 ⬜ Documentar
 ⬜ Commit
+
+dia 16
+□ Crear GlobalExceptionHandler
+□ Capturar errores de validación
+□ Devolver JSON limpios
+□ Capturar UserAlreadyExistsException
+□ Devolver códigos HTTP correctos
+□ Probar con Postman
+□ Commit
